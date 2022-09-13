@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AECC88BB28D08D4600BA0F8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC88BA28D08D4600BA0F8E /* AppDelegate.swift */; };
+		AECC88BD28D08D4600BA0F8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC88BC28D08D4600BA0F8E /* SceneDelegate.swift */; };
+		AECC88BF28D08D4600BA0F8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC88BE28D08D4600BA0F8E /* ViewController.swift */; };
+		AECC88C228D08D4600BA0F8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECC88C028D08D4600BA0F8E /* Main.storyboard */; };
+		AECC88C428D08D4700BA0F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECC88C328D08D4700BA0F8E /* Assets.xcassets */; };
+		AECC88C728D08D4700BA0F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECC88C528D08D4700BA0F8E /* LaunchScreen.storyboard */; };
+		AECC88D228D08D4700BA0F8E /* ISP372_MonahovTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC88D128D08D4700BA0F8E /* ISP372_MonahovTests.swift */; };
+		AECC88DD28D08D4800BA0F8E /* ISP372_MonahovUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC88DC28D08D4800BA0F8E /* ISP372_MonahovUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AECC88CE28D08D4700BA0F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECC88AF28D08D4600BA0F8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECC88B628D08D4600BA0F8E;
+			remoteInfo = ISP372_Monahov;
+		};
+		AECC88D928D08D4700BA0F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECC88AF28D08D4600BA0F8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECC88B628D08D4600BA0F8E;
+			remoteInfo = ISP372_Monahov;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AECC88B728D08D4600BA0F8E /* ISP372_Monahov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISP372_Monahov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECC88BA28D08D4600BA0F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AECC88BC28D08D4600BA0F8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AECC88BE28D08D4600BA0F8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AECC88C128D08D4600BA0F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AECC88C328D08D4700BA0F8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AECC88C628D08D4700BA0F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AECC88C828D08D4700BA0F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECC88CD28D08D4700BA0F8E /* ISP372_MonahovTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISP372_MonahovTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECC88D128D08D4700BA0F8E /* ISP372_MonahovTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP372_MonahovTests.swift; sourceTree = "<group>"; };
+		AECC88D328D08D4700BA0F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECC88D828D08D4700BA0F8E /* ISP372_MonahovUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISP372_MonahovUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECC88DC28D08D4800BA0F8E /* ISP372_MonahovUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP372_MonahovUITests.swift; sourceTree = "<group>"; };
+		AECC88DE28D08D4800BA0F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECC88B428D08D4600BA0F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECC88CA28D08D4700BA0F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECC88D528D08D4700BA0F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AECC88AE28D08D4600BA0F8E = {
+			isa = PBXGroup;
+			children = (
+				AECC88B928D08D4600BA0F8E /* ISP372_Monahov */,
+				AECC88D028D08D4700BA0F8E /* ISP372_MonahovTests */,
+				AECC88DB28D08D4700BA0F8E /* ISP372_MonahovUITests */,
+				AECC88B828D08D4600BA0F8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECC88B828D08D4600BA0F8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECC88B728D08D4600BA0F8E /* ISP372_Monahov.app */,
+				AECC88CD28D08D4700BA0F8E /* ISP372_MonahovTests.xctest */,
+				AECC88D828D08D4700BA0F8E /* ISP372_MonahovUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECC88B928D08D4600BA0F8E /* ISP372_Monahov */ = {
+			isa = PBXGroup;
+			children = (
+				AECC88BA28D08D4600BA0F8E /* AppDelegate.swift */,
+				AECC88BC28D08D4600BA0F8E /* SceneDelegate.swift */,
+				AECC88BE28D08D4600BA0F8E /* ViewController.swift */,
+				AECC88C028D08D4600BA0F8E /* Main.storyboard */,
+				AECC88C328D08D4700BA0F8E /* Assets.xcassets */,
+				AECC88C528D08D4700BA0F8E /* LaunchScreen.storyboard */,
+				AECC88C828D08D4700BA0F8E /* Info.plist */,
+			);
+			path = ISP372_Monahov;
+			sourceTree = "<group>";
+		};
+		AECC88D028D08D4700BA0F8E /* ISP372_MonahovTests */ = {
+			isa = PBXGroup;
+			children = (
+				AECC88D128D08D4700BA0F8E /* ISP372_MonahovTests.swift */,
+				AECC88D328D08D4700BA0F8E /* Info.plist */,
+			);
+			path = ISP372_MonahovTests;
+			sourceTree = "<group>";
+		};
+		AECC88DB28D08D4700BA0F8E /* ISP372_MonahovUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AECC88DC28D08D4800BA0F8E /* ISP372_MonahovUITests.swift */,
+				AECC88DE28D08D4800BA0F8E /* Info.plist */,
+			);
+			path = ISP372_MonahovUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECC88B628D08D4600BA0F8E /* ISP372_Monahov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECC88E128D08D4800BA0F8E /* Build configuration list for PBXNativeTarget "ISP372_Monahov" */;
+			buildPhases = (
+				AECC88B328D08D4600BA0F8E /* Sources */,
+				AECC88B428D08D4600BA0F8E /* Frameworks */,
+				AECC88B528D08D4600BA0F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISP372_Monahov;
+			productName = ISP372_Monahov;
+			productReference = AECC88B728D08D4600BA0F8E /* ISP372_Monahov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AECC88CC28D08D4700BA0F8E /* ISP372_MonahovTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECC88E428D08D4800BA0F8E /* Build configuration list for PBXNativeTarget "ISP372_MonahovTests" */;
+			buildPhases = (
+				AECC88C928D08D4700BA0F8E /* Sources */,
+				AECC88CA28D08D4700BA0F8E /* Frameworks */,
+				AECC88CB28D08D4700BA0F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECC88CF28D08D4700BA0F8E /* PBXTargetDependency */,
+			);
+			name = ISP372_MonahovTests;
+			productName = ISP372_MonahovTests;
+			productReference = AECC88CD28D08D4700BA0F8E /* ISP372_MonahovTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AECC88D728D08D4700BA0F8E /* ISP372_MonahovUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECC88E728D08D4800BA0F8E /* Build configuration list for PBXNativeTarget "ISP372_MonahovUITests" */;
+			buildPhases = (
+				AECC88D428D08D4700BA0F8E /* Sources */,
+				AECC88D528D08D4700BA0F8E /* Frameworks */,
+				AECC88D628D08D4700BA0F8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECC88DA28D08D4700BA0F8E /* PBXTargetDependency */,
+			);
+			name = ISP372_MonahovUITests;
+			productName = ISP372_MonahovUITests;
+			productReference = AECC88D828D08D4700BA0F8E /* ISP372_MonahovUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECC88AF28D08D4600BA0F8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					AECC88B628D08D4600BA0F8E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					AECC88CC28D08D4700BA0F8E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AECC88B628D08D4600BA0F8E;
+					};
+					AECC88D728D08D4700BA0F8E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = AECC88B628D08D4600BA0F8E;
+					};
+				};
+			};
+			buildConfigurationList = AECC88B228D08D4600BA0F8E /* Build configuration list for PBXProject "ISP372_Monahov" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECC88AE28D08D4600BA0F8E;
+			productRefGroup = AECC88B828D08D4600BA0F8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECC88B628D08D4600BA0F8E /* ISP372_Monahov */,
+				AECC88CC28D08D4700BA0F8E /* ISP372_MonahovTests */,
+				AECC88D728D08D4700BA0F8E /* ISP372_MonahovUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECC88B528D08D4600BA0F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECC88C728D08D4700BA0F8E /* LaunchScreen.storyboard in Resources */,
+				AECC88C428D08D4700BA0F8E /* Assets.xcassets in Resources */,
+				AECC88C228D08D4600BA0F8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECC88CB28D08D4700BA0F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECC88D628D08D4700BA0F8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECC88B328D08D4600BA0F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECC88BF28D08D4600BA0F8E /* ViewController.swift in Sources */,
+				AECC88BB28D08D4600BA0F8E /* AppDelegate.swift in Sources */,
+				AECC88BD28D08D4600BA0F8E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECC88C928D08D4700BA0F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECC88D228D08D4700BA0F8E /* ISP372_MonahovTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECC88D428D08D4700BA0F8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECC88DD28D08D4800BA0F8E /* ISP372_MonahovUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AECC88CF28D08D4700BA0F8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECC88B628D08D4600BA0F8E /* ISP372_Monahov */;
+			targetProxy = AECC88CE28D08D4700BA0F8E /* PBXContainerItemProxy */;
+		};
+		AECC88DA28D08D4700BA0F8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECC88B628D08D4600BA0F8E /* ISP372_Monahov */;
+			targetProxy = AECC88D928D08D4700BA0F8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AECC88C028D08D4600BA0F8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECC88C128D08D4600BA0F8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AECC88C528D08D4700BA0F8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECC88C628D08D4700BA0F8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AECC88DF28D08D4800BA0F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AECC88E028D08D4800BA0F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECC88E228D08D4800BA0F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISP372_Monahov/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kait20.ISP372-Monahov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECC88E328D08D4800BA0F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISP372_Monahov/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kait20.ISP372-Monahov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AECC88E528D08D4800BA0F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISP372_MonahovTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kait20.ISP372-MonahovTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISP372_Monahov.app/ISP372_Monahov";
+			};
+			name = Debug;
+		};
+		AECC88E628D08D4800BA0F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISP372_MonahovTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kait20.ISP372-MonahovTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISP372_Monahov.app/ISP372_Monahov";
+			};
+			name = Release;
+		};
+		AECC88E828D08D4800BA0F8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISP372_MonahovUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kait20.ISP372-MonahovUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ISP372_Monahov;
+			};
+			name = Debug;
+		};
+		AECC88E928D08D4800BA0F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ISP372_MonahovUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.kait20.ISP372-MonahovUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ISP372_Monahov;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECC88B228D08D4600BA0F8E /* Build configuration list for PBXProject "ISP372_Monahov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECC88DF28D08D4800BA0F8E /* Debug */,
+				AECC88E028D08D4800BA0F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECC88E128D08D4800BA0F8E /* Build configuration list for PBXNativeTarget "ISP372_Monahov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECC88E228D08D4800BA0F8E /* Debug */,
+				AECC88E328D08D4800BA0F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECC88E428D08D4800BA0F8E /* Build configuration list for PBXNativeTarget "ISP372_MonahovTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECC88E528D08D4800BA0F8E /* Debug */,
+				AECC88E628D08D4800BA0F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECC88E728D08D4800BA0F8E /* Build configuration list for PBXNativeTarget "ISP372_MonahovUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECC88E828D08D4800BA0F8E /* Debug */,
+				AECC88E928D08D4800BA0F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECC88AF28D08D4600BA0F8E /* Project object */;
+}

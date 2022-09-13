@@ -24,8 +24,8 @@ class ViewController: UIViewController {
             lable.text = "";
         }
         
-    }
-
+    } //help
+
 
 }
 
